@@ -13,7 +13,7 @@ import { HomeMainComponent } from './home-main/home-main.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/about', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeMainComponent },
   { path: 'projects', component: ProjectsComponent },
