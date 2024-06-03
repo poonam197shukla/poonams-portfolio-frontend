@@ -1,0 +1,74 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--first-color);
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    text-align: left;
+  }
+  
+  h2, h3, p {
+    margin: 0;
+    padding: 5px 0;
+  }
+
+  .chip {
+    display: inline-block;
+    --tw-text-opacity: 1;
+    color: white;
+    line-height: 1.25rem;
+    font-weight: 500;
+    font-size: .75rem;
+    background-color: var(--first-color);
+    border-radius: 9999px;
+    padding: 5px;
+  }
+
+  .company{
+    color: var(--first-color-dark);
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+    font-weight: var(--font-semi-bold);
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    font-size: var(--small-font-size);
+}
+
+.designation{
+    display: block;
+    font-weight: var(--font-semi-bold);
+}
+
+.experience-year{
+    font-size: var(--small-font-size);
+}
+
+.card-basic-data {
+    margin-bottom: var(--mb-2);
+}
+
+.experience-info {
+    text-align: left;
+    font-style: oblique;
+    font-weight: lighter;
+    margin-top: 4px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
+
+  
+
+
+  

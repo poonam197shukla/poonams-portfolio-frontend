@@ -1,0 +1,143 @@
+/* .skills{
+
+}
+
+.skills_container{
+    row-gap: 2rem;
+}
+
+.skill-content{
+
+}
+
+.skills_subtitle{
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.skills_data{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+
+.skills_name{
+    text-transform: uppercase;
+}
+
+.skills_number{
+
+}
+
+.skills_bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-color);
+}
+
+.skills_html{
+    width: 80%;
+}
+
+.skills_js{
+    width: 90%;
+}
+
+.skills_angular{
+    width: 70%;
+}
+
+.skills_react{
+    width: 60%;
+}
+
+.skills_csharp{
+    width: 80%;
+}
+
+.skills_dotNet{
+    width: 40%;
+}
+
+.skills_node{
+    width: 30%;
+} */
+
+.skills_container {
+    row-gap: 2rem;
+}
+
+.skills_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem .5rem;
+    border: 2px solid var(--first-color);
+    border-radius: .5rem;
+    text-align: center;
+    margin-bottom: var(--mb-2);
+}
+
+/* .services_icon {
+    font-size: 2rem;
+    padding: .5rem;
+    background-color: var(--first-color);
+    color: var(--first-color-lighter);
+    border-radius: 50%;
+    margin-bottom: var(--mb-2);
+}     */
+
+/* .services_title{
+    font-size: 1.25rem;
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-1);
+} */
+
+.services_content, .services_icon, .services_description, .services_title {
+    transition: .5s;
+}
+
+.services_content:hover {
+    background-color: var(--first-color);
+}
+
+.services_content:hover .services_icon {
+    background-color: var(--first-color-lighter);
+    color: var(--first-color);
+}
+
+.services_content:hover .services_title {
+    color:  var(--first-color-lighter);
+}
+
+.services_content:hover .services_description {
+    color:  var(--first-color-lighter);
+}
+
+@media screen and (min-width:768px){
+      .skills_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen  and (min-width: 1024px){
+ 
+    .skills_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* @media screen and (min-width:768px){
+
+    .skills_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+/* @media screen  and (min-width: 1024px){
+
+} */
